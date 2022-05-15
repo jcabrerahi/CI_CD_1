@@ -1,9 +1,10 @@
 import os
 import math
+from termios import B110
 
 
-def func1(a, b) -> int:
-    return math.floor(a + b)
+def func1(a, b1) -> int:
+    return math.floor(a + b1)
 
 
 def func2(a, b, c) -> str:
