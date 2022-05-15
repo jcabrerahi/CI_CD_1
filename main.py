@@ -1,6 +1,5 @@
 import os
 import math
-from termios import B110
 
 
 def func1(a, b1) -> int:
