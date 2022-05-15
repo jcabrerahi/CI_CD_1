@@ -6,7 +6,7 @@ jobs:
     name: CI workflow
     steps:
     - name: adding permissions
-      run: git config --global --add safe.directory /github/jcabrerahi/CI_CD_1
+      run: git config --global --add safe.directory /jcabrerahi/CI_CD_1
 
     - name: checkout source repo
       uses: actions/checkout@v2
